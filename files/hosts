@@ -1,0 +1,21 @@
+127.0.0.1       localhost
+
+# The following lines are desirable for IPv6 capable hosts
+::1     ip6-localhost   ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+ff02::3 ip6-allhosts
+
+127.0.1.1       ubuntu-jammy    ubuntu-jammy
+
+192.168.56.20       vk8s-cp0
+192.168.56.21       vk8s-cp1
+192.168.56.22       vk8s-cp2
+
+192.168.56.25       vk8s-lb
+
+192.168.56.30       vk8s-w0
+192.168.56.31       vk8s-w1
+192.168.56.32       vk8s-w2
